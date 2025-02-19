@@ -76,3 +76,41 @@
 //   }
 //   Useradd(user);
   
+// 6-topshiriq
+
+// function add(a: number, b: number): number {
+//     return a + b;
+//   }
+  
+//   console.log(add(2, 1));
+  
+//   function sum(...num: number[]): number {
+//     return num.reduce((a, b) => a + b, 0) / num.length;
+//   }
+  
+//   console.log(sum(20, 10, 10));
+  
+
+// 7-topshiriq
+// let personTuple: [string, number, string] = ["Abror", 16, "Abdurahimovv"];
+
+// function addname([a, b]: [number, string]): [string, number] {
+//   return [b, a];
+// }
+
+// console.log(addname([10, "Hello"]));
+
+
+// 9-topshiriq
+function UnkwonChek(input: unknown): number | string {
+    if (typeof input === "string") return input.length;
+    return "Bu string emas";
+  }
+  
+  console.log(UnkwonChek("Salom"));
+  
+  function toUpperCase(input: unknown): string {
+    return String(input).toUpperCase();
+  }
+  
+  console.log(toUpperCase(111));
